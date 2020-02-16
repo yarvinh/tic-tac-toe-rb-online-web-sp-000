@@ -26,7 +26,7 @@
   # valid move method
   def valid_move?(board, index)
     # changes from board[index] to method move
-      if position_taken?(board,index)
+      if position_taken?(board,index) == false
       # if board[index] == "X" || board[index] == "O"
             false
       elsif index < 0 || index > 9
