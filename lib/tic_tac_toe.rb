@@ -154,13 +154,13 @@
     #   end
     #   end
 
-if winner(board) == "X" || winner(board) == "O"
+# if winner(board) == "X" || winner(board) == "O"
 
  if winner(board) == "O"
  puts "Congratulations O!"
  else  winner(board) == "X"
    puts "Congratulations X!"
- end
+ # end
  elsif draw?(board) == true
    puts "Cat's Game!"
 else
