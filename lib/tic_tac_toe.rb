@@ -206,8 +206,9 @@
       counter += 1
     turn(board)
     over?(board)
+    draw?(board)
 
-     if over?(board) 
+     if over?(board)
       break
     end
 end
