@@ -127,8 +127,8 @@
       #       true
       elsif full?(board) == false && won?(board).class == Array
             true
-      # else
-      #       false
+      else
+            false
       end
     end
 
