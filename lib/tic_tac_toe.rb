@@ -154,7 +154,7 @@ if winner(board) == "X" || winner(board) == "O"
    puts "Congratulations X!"
  end
  elsif draw?(board) == true
-   nil
+   puts "Cat's Game!"
 else
 
 
