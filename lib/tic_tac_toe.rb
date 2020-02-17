@@ -149,7 +149,7 @@
 
 if winner(board) == "X"
  "congratulates the winner X"
- elsif
+ elsif winner(board) == "O"
  "congratulates the winner O"
 else
 turn(board)
