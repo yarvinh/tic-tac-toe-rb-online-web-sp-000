@@ -208,18 +208,9 @@
         3,
         3,
         3,
-        null,
-        3,
         0,
         0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
         null,
         0,
         0,
@@ -228,6 +219,6 @@
         null
       ]
     },
-    "timestamp": 1581910839
+    "timestamp": 1581910989
   }
 }
