@@ -48,7 +48,7 @@
       #   playing =  current_player(board)
       #   move(board,interger,playing)
        end
-
+       puts "testing"
        playing =  current_player(board)
        move(board,interger,playing)
       puts display_board(board)
