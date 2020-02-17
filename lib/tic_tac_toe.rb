@@ -146,19 +146,6 @@
 # Play
 def play(board)
 
-
-      if over?() == false
-        turn(board)
-        over?(board)
-         draw?(board)
-
-
-
-
-
-
-# if winner(board) == "X" || winner(board) == "O"
-
 if winner(board) == "O"
 puts "Congratulations O!"
 elsif  winner(board) == "X"
