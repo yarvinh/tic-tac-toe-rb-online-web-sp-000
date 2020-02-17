@@ -147,14 +147,17 @@
 turn(board)
 over?(board)
 draw?(board)
+winner(board)
 
 turn(board)
 over?(board)
 draw?(board)
+winner(board)
 
 turn(board)
 over?(board)
 draw?(board)
+winner(board)
 
 turn(board)
 over?(board)
