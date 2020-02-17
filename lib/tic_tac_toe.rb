@@ -44,7 +44,7 @@
        if valid == false
        puts "Please enter 1-9:"
           # index
-        gets.strip
+        # gets.strip
        end
        index
        playing =  current_player(board)
