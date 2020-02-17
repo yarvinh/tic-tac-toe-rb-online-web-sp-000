@@ -155,9 +155,9 @@ def play(board)
        elsif draw?(board) == true
           puts "Cat's Game!"
        else
-          # turn(board)
-          # over?(board)
-          # draw?(board)
+          turn(board)
+          over?(board)
+          draw?(board)
 end
 
 if counter >= 10
