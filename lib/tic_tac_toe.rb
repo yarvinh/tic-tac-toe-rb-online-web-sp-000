@@ -139,7 +139,7 @@
         counter += 1
       if over?() == false
           turn(board)
-      if over?(board)
+      elsif over?(board)
           if winner(board) == "O"
                puts "Congratulations O!"
           else  winner(board) == "X"
