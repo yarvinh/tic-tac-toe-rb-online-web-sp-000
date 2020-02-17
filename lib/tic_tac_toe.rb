@@ -132,8 +132,8 @@
       end
     end
 
-#     # Winner method
-#     def winner(board)
+    # Winner method
+    def winner(board)
 #       won = won?(board)
 #       if won == nil
 #         return nil
