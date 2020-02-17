@@ -118,78 +118,58 @@
     end
     # Over method
     def over?(board)
-      if full?(board) == true
-          true
-      elsif full?(board) == true && won?(board).class == Array
-          true
-          # return full?(board)
-      # elsif  full?(board) == true
-      #       true
-      elsif full?(board) == false && won?(board).class == Array
-            true
-      # else
-      #       false
-      end
-    end
-
-    # Winner method
-    def winner(board)
-      won = won?(board)
-      if won == nil
-        return nil
-      else
-        return board[won[0]]
-      end
-      # return board[won[0]]
-    end
-  # Play
-  def play(board)
-
-
-if winner(board) == "X" || winner(board) == "O"
-
- if winner(board) == "O"
- puts "Congratulations O!"
- else  winner(board) == "X"
-   puts "Congratulations X!"
- end
- elsif draw?(board) == true
-   puts "Cat's Game!"
-else
-
-
-turn(board)
-over?(board)
- draw?(board)
-# winner(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
-draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
+#       if full?(board) == true
+#           true
+#       elsif full?(board) == true && won?(board).class == Array
+#           true
+#           # return full?(board)
+#       # elsif  full?(board) == true
+#       #       true
+#       elsif full?(board) == false && won?(board).class == Array
+#             true
+#       # else
+#       #       false
+#       end
+#     end
+#
+#     # Winner method
+#     def winner(board)
+#       won = won?(board)
+#       if won == nil
+#         return nil
+#       else
+#         return board[won[0]]
+#       end
+#       # return board[won[0]]
+#     end
+#   # Play
+#   def play(board)
+#
+#
+# if winner(board) == "X" || winner(board) == "O"
+#
+#  if winner(board) == "O"
+#  puts "Congratulations O!"
+#  else  winner(board) == "X"
+#    puts "Congratulations X!"
+#  end
+#  elsif draw?(board) == true
+#    puts "Cat's Game!"
+# else
+#
+#
+# turn(board)
+# over?(board)
+#  draw?(board)
+# # winner(board)
+#
+# turn(board)
+# over?(board)
+#  draw?(board)
+#
+# turn(board)
+# over?(board)
+#  draw?(board)
 #
 # turn(board)
 # over?(board)
@@ -198,16 +178,38 @@ over?(board)
 # turn(board)
 # over?(board)
 #  draw?(board)
-end
-
-#       counter = 0
-#       loop do
-#       counter += 1
-#     turn(board)
-#     over?(board)
-#      if counter >= 9
-#       break
-#     end
+#
+# turn(board)
+# over?(board)
+#  draw?(board)
+#
+# turn(board)
+# over?(board)
+#  draw?(board)
+#
+# turn(board)
+# over?(board)
+#  draw?(board)
+#
+# #
+# turn(board)
+# over?(board)
+# draw?(board)
+#
+# turn(board)
+# over?(board)
+#  draw?(board)
 # end
+
+      counter = 0
+      loop do
+      counter += 1
+    turn(board)
+    over?(board)
+
+     if over?(board) 
+      break
+    end
+end
 
   end
