@@ -157,7 +157,7 @@ def play(board)
           else  winner(board) == "X"
                puts "Congratulations X!"
              end
-    
+
     elsif draw?(board) == true
                 puts "Cat's Game!"
       end
@@ -180,40 +180,40 @@ def play(board)
 # over?(board)
 #  draw?(board)
 # # winner(board)
-# 
+#
 # turn(board)
 # over?(board)
 #  draw?(board)
-# 
+#
 # turn(board)
 # over?(board)
 #  draw?(board)
-# 
+#
 # turn(board)
 # over?(board)
 # draw?(board)
-# 
+#
 # turn(board)
 # over?(board)
 #  draw?(board)
-# 
+#
 # turn(board)
 # over?(board)
 #  draw?(board)
-# 
+#
 # turn(board)
 # over?(board)
 #  draw?(board)
-# 
+#
 # turn(board)
 # over?(board)
 #  draw?(board)
-# 
+#
 # #
 # turn(board)
 # over?(board)
 # draw?(board)
-# 
+#
 # turn(board)
 # over?(board)
 #  draw?(board)
