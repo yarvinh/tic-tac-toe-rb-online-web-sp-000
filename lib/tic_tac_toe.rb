@@ -144,8 +144,9 @@
                puts "Congratulations O!"
           else  winner(board) == "X"
                puts "Congratulations X!"
+             end
 
-          elsif draw?(board) == true
+    elsif draw?(board) == true
                 puts "Cat's Game!"
       end
       if over?(boar)
