@@ -216,8 +216,8 @@
       puts "Cat's Game!"
     end
   end
-    if over?(board)
+if over?(board) == true
       break
     end
-end 
+end
   end
