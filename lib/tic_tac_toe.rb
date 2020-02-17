@@ -131,21 +131,28 @@
       #       false
       end
     end
-
+       
     # Winner method
     def winner(board)
-#       won = won?(board)
-#       if won == nil
-#         return nil
-#       else
-#         return board[won[0]]
-#       end
-#       # return board[won[0]]
-#     end
-#   # Play
-#   def play(board)
-#
-#
+      counter = 0
+      loop do
+        counter += 1
+      if over?() == false
+          turn(board)    
+      if over?(board)
+          if winner(board) == "O"
+               puts "Congratulations O!"
+          else  winner(board) == "X"
+               puts "Congratulations X!"
+             
+          elsif draw?(board) == true
+                puts "Cat's Game!"  
+      end
+      if over?(boar)
+        break
+      end
+      end
+      
 # if winner(board) == "X" || winner(board) == "O"
 #
 #  if winner(board) == "O"
@@ -200,16 +207,4 @@
 # over?(board)
 #  draw?(board)
 # end
-
-      counter = 0
-      loop do
-        turn(board)
-        draw?(board)
-        winner(board)
-      counter += 1
-
-if counter >= 9
-      break
-    end
-end
   end
