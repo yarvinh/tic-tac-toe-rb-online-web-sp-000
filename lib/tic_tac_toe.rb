@@ -168,3 +168,101 @@ def play(board)
     draw?(board)
 end
   end
+
+  if winner(board) == "O"
+  puts "Congratulations O!"
+  elsif  winner(board) == "X"
+    puts "Congratulations X!"
+  #  end
+  elsif draw?(board) == true
+    puts "Cat's Game!"
+  else
+    turn(board)
+    over?(board)
+     draw?(board)
+ end
+   end
+
+   if winner(board) == "O"
+   puts "Congratulations O!"
+   elsif  winner(board) == "X"
+     puts "Congratulations X!"
+   #  end
+   elsif draw?(board) == true
+     puts "Cat's Game!"
+   else
+     turn(board)
+     over?(board)
+      draw?(board)
+  end
+    end
+
+    if winner(board) == "O"
+    puts "Congratulations O!"
+    elsif  winner(board) == "X"
+      puts "Congratulations X!"
+    #  end
+    elsif draw?(board) == true
+      puts "Cat's Game!"
+    else
+      turn(board)
+      over?(board)
+       draw?(board)
+   end
+     end
+
+     if winner(board) == "O"
+     puts "Congratulations O!"
+     elsif  winner(board) == "X"
+       puts "Congratulations X!"
+     #  end
+     elsif draw?(board) == true
+       puts "Cat's Game!"
+     else
+       turn(board)
+       over?(board)
+        draw?(board)
+    end
+      end
+
+      if winner(board) == "O"
+      puts "Congratulations O!"
+      elsif  winner(board) == "X"
+        puts "Congratulations X!"
+      #  end
+      elsif draw?(board) == true
+        puts "Cat's Game!"
+      else
+        turn(board)
+        over?(board)
+         draw?(board)
+     end
+       end
+
+       if winner(board) == "O"
+       puts "Congratulations O!"
+       elsif  winner(board) == "X"
+         puts "Congratulations X!"
+       #  end
+       elsif draw?(board) == true
+         puts "Cat's Game!"
+       else
+         turn(board)
+         over?(board)
+          draw?(board)
+      end
+        end
+
+        if winner(board) == "O"
+        puts "Congratulations O!"
+        elsif  winner(board) == "X"
+          puts "Congratulations X!"
+        #  end
+        elsif draw?(board) == true
+          puts "Cat's Game!"
+        else
+          turn(board)
+          over?(board)
+           draw?(board)
+       end
+         end
