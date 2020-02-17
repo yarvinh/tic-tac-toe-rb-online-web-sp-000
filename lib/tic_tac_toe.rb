@@ -148,9 +148,9 @@
 
 
 if winner(board) == "X"
- "congratulates the winner X"
+ puts "congratulates the winner X"
  elsif winner(board) == "O"
- "congratulates the winner O"
+ puts "congratulates the winner O"
 else
 turn(board)
 over?(board)
