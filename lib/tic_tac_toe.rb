@@ -151,7 +151,7 @@ def play(board)
         counter += 1
       if over?() == false
           turn(board)
-      elsif over?(board)
+      elsif over?(board) == true
           if winner(board) == "O"
                puts "Congratulations O!"
           elsif  winner(board) == "X"
