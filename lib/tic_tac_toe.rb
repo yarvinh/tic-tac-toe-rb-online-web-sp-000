@@ -147,7 +147,7 @@
 
 
 
-if winner(board) == "X" || winner(board) == "O"
+if winner(board) == "X" 
   nil
 else
 turn(board)
