@@ -159,14 +159,13 @@ def play(board)
 
 # if winner(board) == "X" || winner(board) == "O"
 
- if winner(board) == "O"
- puts "Congratulations O!"
- elsif  winner(board) == "X"
-   puts "Congratulations X!"
- # end
- elsif draw?(board) == true
-   puts "Cat's Game!"
- end
+if winner(board) == "O"
+puts "Congratulations O!"
+elsif  winner(board) == "X"
+  puts "Congratulations X!"
+#  end
+elsif draw?(board) == true
+  puts "Cat's Game!"
 else
 turn(board)
 over?(board)
