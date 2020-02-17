@@ -145,20 +145,19 @@
   # Play
   def play(board)
 
-
+    turn(board)
+    over?(board)
+    draw?(board)
 
 if winner(board) == "X" || winner(board) == "O"
-  
+
  if winner(board) == "O"
  puts "congratulates the winner O"
  else  winner(board) == "X"
    puts "congratulates the winner X"
  end
 else
-turn(board)
-over?(board)
-draw?(board)
-winner(board)
+
 
 turn(board)
 over?(board)
