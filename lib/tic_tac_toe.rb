@@ -146,7 +146,7 @@
 # Play
 def play(board)
   counter = 0
-  loop do 
+  loop do
     counter += 1
        if winner(board) == "O"
           puts "Congratulations O!"
@@ -160,7 +160,7 @@ def play(board)
           draw?(board)
 end
 
-if counter >= 10 
+if counter >= 10
   break
 end
 end
@@ -177,7 +177,7 @@ end
 #   over?(board)
 #    draw?(board)
 # end
-# 
+#
 # if winner(board) == "O"
 # puts "Congratulations O!"
 # elsif  winner(board) == "X"
@@ -190,7 +190,7 @@ end
 #   over?(board)
 #    draw?(board)
 # end
-# 
+#
 # if winner(board) == "O"
 # puts "Congratulations O!"
 # elsif  winner(board) == "X"
@@ -203,7 +203,7 @@ end
 #   over?(board)
 #    draw?(board)
 # end
-# 
+#
 # if winner(board) == "O"
 # puts "Congratulations O!"
 # elsif  winner(board) == "X"
@@ -216,7 +216,7 @@ end
 #   over?(board)
 #    draw?(board)
 # end
-# 
+#
 # if winner(board) == "O"
 # puts "Congratulations O!"
 # elsif  winner(board) == "X"
@@ -229,7 +229,7 @@ end
 #   over?(board)
 #    draw?(board)
 # end
-# 
+#
 # if winner(board) == "O"
 # puts "Congratulations O!"
 # elsif  winner(board) == "X"
@@ -242,7 +242,7 @@ end
 #   over?(board)
 #    draw?(board)
 # end
-# 
+#
 # if winner(board) == "O"
 # puts "Congratulations O!"
 # elsif  winner(board) == "X"
@@ -255,7 +255,7 @@ end
 #   over?(board)
 #    draw?(board)
 # end
-# 
+#
 # if winner(board) == "O"
 # puts "Congratulations O!"
 # elsif  winner(board) == "X"
