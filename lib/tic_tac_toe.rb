@@ -219,6 +219,5 @@
     if over?(board)
       break
     end
-end
 
   end
