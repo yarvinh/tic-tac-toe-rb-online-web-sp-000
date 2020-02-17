@@ -134,6 +134,18 @@
 
     # Winner method
     def winner(board)
+   won = won?(board)
+   if won == nil
+     return nil
+   else
+      return board[won[0]]
+      puts board[won[0]]
+   end
+   #  return board[won[0]]
+ end
+# Play
+def play(board)
+
     #   counter = 0
     #   loop do
     #     counter += 1
