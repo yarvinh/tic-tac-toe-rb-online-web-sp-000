@@ -204,17 +204,18 @@
       counter = 0
       loop do
       counter += 1
-    turn(board)
-    over?(board)
-    draw?(board)
+    if over?(board) == false
+      turn(board)
+      draw?(board)
+    elsif over?(board)
     if winner(board) == "O"
     puts "Congratulations O!"
     elsif  winner(board) == "X"
       puts "Congratulations X!"
-   #  end
     elsif draw?(board) == true
       puts "Cat's Game!"
-   else
+    end
+  end
     if over?(board)
       break
     end
