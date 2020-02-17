@@ -147,8 +147,10 @@
 
 
 
-if winner(board) == "X" 
-  nil
+if winner(board) == "X"
+ "congratulates the winner X"
+ elsif
+ "congratulates the winner O"
 else
 turn(board)
 over?(board)
