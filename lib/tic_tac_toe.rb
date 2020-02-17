@@ -159,45 +159,45 @@ else
 
 
 turn(board)
-over?(board)
-draw?(board)
-winner(board)
+# over?(board)
+# draw?(board)
+# winner(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 
 turn(board)
-over?(board)
-draw?(board)
+# over?(board)
+# draw?(board)
 end
 
 #       counter = 0
