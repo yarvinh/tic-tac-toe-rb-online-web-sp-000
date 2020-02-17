@@ -146,14 +146,15 @@
 # Play
 def play(board)
 
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
+# if winner(board) == "O"
+# puts "Congratulations O!"
+# elsif  winner(board) == "X"
+#   puts "Congratulations X!"
+# #  end
+# elsif draw?(board) == true
+#   puts "Cat's Game!"
+# else
+if over?(board) == false
 turn(board)
 over?(board)
  draw?(board)
@@ -195,5 +196,14 @@ draw?(board)
 turn(board)
 over?(board)
  draw?(board)
+
+ elsif winner(board) == "O"
+ puts "Congratulations O!"
+ elsif  winner(board) == "X"
+   puts "Congratulations X!"
+ #  end
+ elsif draw?(board) == true
+   puts "Cat's Game!"
+ else
 end
   end
