@@ -145,6 +145,25 @@
  end
 # Play
 def play(board)
+  counter = 0
+  loop do 
+    counter += 1
+       if winner(board) == "O"
+          puts "Congratulations O!"
+       elsif  winner(board) == "X"
+          puts "Congratulations X!"
+       elsif draw?(board) == true
+          puts "Cat's Game!"
+       else
+          turn(board)
+          over?(board)
+          draw?(board)
+end
+
+if counter >= 10 
+  break
+end
+end
 
 # if winner(board) == "O"
 # puts "Congratulations O!"
@@ -154,121 +173,99 @@ def play(board)
 # elsif draw?(board) == true
 #   puts "Cat's Game!"
 # else
-
- if winner(board) == "O"
- puts "Congratulations O!"
- elsif  winner(board) == "X"
-   puts "Congratulations X!"
- #  end
- elsif draw?(board) == true
-   puts "Cat's Game!"
- else
-   turn(board)
-   over?(board)
-    draw?(board)
-end
-
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
-  turn(board)
-  over?(board)
-   draw?(board)
-end
-
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
-  turn(board)
-  over?(board)
-   draw?(board)
-end
-
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
-  turn(board)
-  over?(board)
-   draw?(board)
-end
-
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
-  turn(board)
-  over?(board)
-   draw?(board)
-end
-
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
-  turn(board)
-  over?(board)
-   draw?(board)
-end
-
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
-  turn(board)
-  over?(board)
-   draw?(board)
-end
-
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
-  turn(board)
-  over?(board)
-   draw?(board)
-end
-
-if winner(board) == "O"
-puts "Congratulations O!"
-elsif  winner(board) == "X"
-  puts "Congratulations X!"
-#  end
-elsif draw?(board) == true
-  puts "Cat's Game!"
-else
-  turn(board)
-  over?(board)
-   draw?(board)
-end
+#   turn(board)
+#   over?(board)
+#    draw?(board)
+# end
+# 
+# if winner(board) == "O"
+# puts "Congratulations O!"
+# elsif  winner(board) == "X"
+#   puts "Congratulations X!"
+# #  end
+# elsif draw?(board) == true
+#   puts "Cat's Game!"
+# else
+#   turn(board)
+#   over?(board)
+#    draw?(board)
+# end
+# 
+# if winner(board) == "O"
+# puts "Congratulations O!"
+# elsif  winner(board) == "X"
+#   puts "Congratulations X!"
+# #  end
+# elsif draw?(board) == true
+#   puts "Cat's Game!"
+# else
+#   turn(board)
+#   over?(board)
+#    draw?(board)
+# end
+# 
+# if winner(board) == "O"
+# puts "Congratulations O!"
+# elsif  winner(board) == "X"
+#   puts "Congratulations X!"
+# #  end
+# elsif draw?(board) == true
+#   puts "Cat's Game!"
+# else
+#   turn(board)
+#   over?(board)
+#    draw?(board)
+# end
+# 
+# if winner(board) == "O"
+# puts "Congratulations O!"
+# elsif  winner(board) == "X"
+#   puts "Congratulations X!"
+# #  end
+# elsif draw?(board) == true
+#   puts "Cat's Game!"
+# else
+#   turn(board)
+#   over?(board)
+#    draw?(board)
+# end
+# 
+# if winner(board) == "O"
+# puts "Congratulations O!"
+# elsif  winner(board) == "X"
+#   puts "Congratulations X!"
+# #  end
+# elsif draw?(board) == true
+#   puts "Cat's Game!"
+# else
+#   turn(board)
+#   over?(board)
+#    draw?(board)
+# end
+# 
+# if winner(board) == "O"
+# puts "Congratulations O!"
+# elsif  winner(board) == "X"
+#   puts "Congratulations X!"
+# #  end
+# elsif draw?(board) == true
+#   puts "Cat's Game!"
+# else
+#   turn(board)
+#   over?(board)
+#    draw?(board)
+# end
+# 
+# if winner(board) == "O"
+# puts "Congratulations O!"
+# elsif  winner(board) == "X"
+#   puts "Congratulations X!"
+# #  end
+# elsif draw?(board) == true
+#   puts "Cat's Game!"
+# else
+#   turn(board)
+#   over?(board)
+#    draw?(board)
+# end
   end
