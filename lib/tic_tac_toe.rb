@@ -203,6 +203,9 @@
 
       counter = 0
       loop do
+        turn(board)
+        draw?(board)
+        winner(board)
       counter += 1
     # if over?(board) == false
       turn(board)
