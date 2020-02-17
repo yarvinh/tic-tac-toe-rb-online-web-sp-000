@@ -153,104 +153,60 @@ def play(board)
          draw?(board)
 
 
-        turn(board)
-        over?(board)
-         draw?(board)
 
-        turn(board)
-        over?(board)
-         draw?(board)
 
-        turn(board)
-        over?(board)
-        draw?(board)
-
-        turn(board)
-        over?(board)
-         draw?(board)
-
-        turn(board)
-        over?(board)
-         draw?(board)
-
-        turn(board)
-        over?(board)
-         draw?(board)
-
-        turn(board)
-        over?(board)
-         draw?(board)
-
-        #
-        turn(board)
-        over?(board)
-        draw?(board)
-
-        turn(board)
-        over?(board)
-         draw?(board)
-      elsif over?(board) == true
-          if winner(board) == "O"
-               puts "Congratulations O!"
-          elsif  winner(board) == "X"
-               puts "Congratulations X!"
-
-          elsif draw?(board) == true
-                puts "Cat's Game!"
-      end
-    end
 
 
 # if winner(board) == "X" || winner(board) == "O"
 
-#  if winner(board) == "O"
-#  puts "Congratulations O!"
-#  elsif  winner(board) == "X"
-#    puts "Congratulations X!"
-#  # end
-#  elsif draw?(board) == true
-#    puts "Cat's Game!"
-# else
-# turn(board)
-# over?(board)
-#  draw?(board)
-# # winner(board)
+ if winner(board) == "O"
+ puts "Congratulations O!"
+ elsif  winner(board) == "X"
+   puts "Congratulations X!"
+ # end
+ elsif draw?(board) == true
+   puts "Cat's Game!"
+else
+turn(board)
+over?(board)
+ draw?(board)
+# winner(board)
+
+turn(board)
+over?(board)
+ draw?(board)
+
+turn(board)
+over?(board)
+ draw?(board)
+
+turn(board)
+over?(board)
+draw?(board)
+
+turn(board)
+over?(board)
+ draw?(board)
+
+turn(board)
+over?(board)
+ draw?(board)
+
+turn(board)
+over?(board)
+ draw?(board)
+
+turn(board)
+over?(board)
+ draw?(board)
+
 #
-# turn(board)
-# over?(board)
-#  draw?(board)
-#
-# turn(board)
-# over?(board)
-#  draw?(board)
-#
-# turn(board)
-# over?(board)
-# draw?(board)
-#
-# turn(board)
-# over?(board)
-#  draw?(board)
-#
-# turn(board)
-# over?(board)
-#  draw?(board)
-#
-# turn(board)
-# over?(board)
-#  draw?(board)
-#
-# turn(board)
-# over?(board)
-#  draw?(board)
-#
-# #
-# turn(board)
-# over?(board)
-# draw?(board)
-#
-# turn(board)
-# over?(board)
-#  draw?(board)
-# end
+turn(board)
+over?(board)
+draw?(board)
+
+turn(board)
+over?(board)
+ draw?(board)
+end
   end
