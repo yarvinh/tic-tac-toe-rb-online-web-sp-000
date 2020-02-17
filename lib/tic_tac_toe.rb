@@ -131,28 +131,28 @@
       #       false
       end
     end
-       
+
     # Winner method
     def winner(board)
       counter = 0
       loop do
         counter += 1
       if over?() == false
-          turn(board)    
+          turn(board)
       if over?(board)
           if winner(board) == "O"
                puts "Congratulations O!"
           else  winner(board) == "X"
                puts "Congratulations X!"
-             
+
           elsif draw?(board) == true
-                puts "Cat's Game!"  
+                puts "Cat's Game!"
       end
       if over?(boar)
         break
       end
       end
-      
+
 # if winner(board) == "X" || winner(board) == "O"
 #
 #  if winner(board) == "O"
