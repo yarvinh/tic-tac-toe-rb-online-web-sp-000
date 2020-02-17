@@ -45,9 +45,8 @@
        puts "Please enter 1-9:"
           # index
         gets.strip
-        input_to_index(gets.strip)
        end
-
+       index
        playing =  current_player(board)
        move(board,interger,playing)
       puts display_board(board)
