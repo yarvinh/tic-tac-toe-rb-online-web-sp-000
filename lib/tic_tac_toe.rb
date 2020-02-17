@@ -1,5 +1,5 @@
 
-  # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
   WIN_COMBINATIONS = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [6, 4, 2]]
 
   # display board
@@ -25,9 +25,7 @@
   end
   # valid move method
   def valid_move?(board, index)
-    # changes from board[index] to method move
       if position_taken?(board,index) == true
-      # if board[index] == "X" || board[index] == "O"
             false
       elsif index < 0 || index > 9
            false
@@ -47,10 +45,7 @@
       else
         playing =  current_player(board)
         move(board,interger,playing)
-       end
-      #  puts "testing"
-      #  playing =  current_player(board)
-      #  move(board,interger,playing)
+      end
       puts display_board(board)
   end
   # Turn count method
@@ -122,9 +117,6 @@
           true
       elsif full?(board) == true && won?(board).class == Array
           true
-          # return full?(board)
-      # elsif  full?(board) == true
-      #       true
       elsif full?(board) == false && won?(board).class == Array
             true
       else
@@ -141,7 +133,6 @@
       return board[won[0]]
       puts board[won[0]]
    end
-   #  return board[won[0]]
  end
 # Play
 def play(board)
@@ -158,11 +149,10 @@ def play(board)
           turn(board)
           over?(board)
           draw?(board)
-end
-
-if counter >= 10
-  break
-end
+   end
+  if counter >= 10
+    break
+  end
 end
 
 # if winner(board) == "O"
