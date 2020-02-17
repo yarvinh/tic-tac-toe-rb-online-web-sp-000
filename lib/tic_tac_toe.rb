@@ -152,7 +152,7 @@ if winner(board) == "X" || winner(board) == "O"
  if winner(board) == "O"
  puts "congratulates the winner O"
  else  winner(board) == "X"
-   "congratulates the winner X"
+   puts "congratulates the winner X"
  end
 else
 turn(board)
