@@ -43,12 +43,14 @@
        valid = valid_move?(board,interger )
        if valid == false
        puts "Please enter 1-9:"
-          # index
-        # gets.strip
+          gets.strip
+      else
+        playing =  current_player(board)
+        move(board,interger,playing)
        end
-       index
-       playing =  current_player(board)
-       move(board,interger,playing)
+
+      #  playing =  current_player(board)
+      #  move(board,interger,playing)
       puts display_board(board)
   end
   # Turn count method
