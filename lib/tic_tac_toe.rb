@@ -190,6 +190,10 @@ draw?(board)
 turn(board)
 over?(board)
 draw?(board)
+
+turn(board)
+over?(board)
+draw?(board)
 end
 
 #       counter = 0
