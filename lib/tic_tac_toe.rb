@@ -149,10 +149,11 @@
 
 if winner(board) == "X" || winner(board) == "O"
   nil
- elsif winner(board) == "O"
+ if winner(board) == "O"
  puts "congratulates the winner O"
- elsif  winner(board) == "X"
+ else  winner(board) == "X"
    "congratulates the winner X"
+ end
 else
 turn(board)
 over?(board)
