@@ -153,6 +153,8 @@ if winner(board) == "X" || winner(board) == "O"
  else  winner(board) == "X"
    puts "Congratulations X!"
  end
+ elsif draw?(board) == true
+   nil
 else
 
 
