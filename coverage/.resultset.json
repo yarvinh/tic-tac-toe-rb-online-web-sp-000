@@ -140,9 +140,11 @@
         1,
         21,
         21,
-        19,
+        null,
         null,
         2,
+        null,
+        null,
         null,
         null,
         1,
@@ -199,6 +201,6 @@
         null
       ]
     },
-    "timestamp": 1581901927
+    "timestamp": 1581902574
   }
 }
