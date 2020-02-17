@@ -158,7 +158,7 @@
 
  if winner(board) == "O"
  puts "Congratulations O!"
- else  winner(board) == "X"
+ elsif  winner(board) == "X"
    puts "Congratulations X!"
  # end
  elsif draw?(board) == true
