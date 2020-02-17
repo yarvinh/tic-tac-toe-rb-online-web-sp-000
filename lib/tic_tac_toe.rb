@@ -43,8 +43,8 @@
        valid = valid_move?(board,interger )
        if valid == false
        puts "Please enter 1-9:"
-          index
-          # = gets.strip
+          # index
+        gets.strip
        end
 
        playing =  current_player(board)
