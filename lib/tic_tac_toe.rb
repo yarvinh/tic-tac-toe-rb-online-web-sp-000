@@ -144,21 +144,13 @@
   def play(board)
 
 turn(board)
-if turn(board)
-   over?(board)
- end
-# if turn_count(board) >= 5
-#   over?(board)
-# end
-
-
-#       counter = 0
-#       loop do
-#       counter += 1
-#     turn(board)
-#      if counter >= 9
-#       break
-#     end
-# end
+      counter = 0
+      loop do
+      counter += 1
+    turn(board)
+     if counter >= 9
+      break
+    end
+end
 
   end
