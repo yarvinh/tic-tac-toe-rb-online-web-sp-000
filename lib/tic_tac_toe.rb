@@ -146,21 +146,39 @@
 
 turn(board)
 over?(board)
+draw?(board)
 
 turn(board)
 over?(board)
+draw?(board)
 
 turn(board)
 over?(board)
+draw?(board)
 
 turn(board)
 over?(board)
+draw?(board)
 
 turn(board)
 over?(board)
+draw?(board)
 
 turn(board)
 over?(board)
+draw?(board)
+
+turn(board)
+over?(board)
+draw?(board)
+
+turn(board)
+over?(board)
+draw?(board)
+
+turn(board)
+over?(board)
+draw?(board)
 #       counter = 0
 #       loop do
 #       counter += 1
