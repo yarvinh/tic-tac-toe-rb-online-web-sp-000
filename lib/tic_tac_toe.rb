@@ -148,8 +148,10 @@
 
 
 if winner(board) == "X"
+  nil
  puts "congratulates the winner X"
  elsif winner(board) == "O"
+   nil
  puts "congratulates the winner O"
 end
 turn(board)
