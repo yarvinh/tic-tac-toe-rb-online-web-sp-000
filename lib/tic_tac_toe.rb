@@ -137,8 +137,10 @@
       won = won?(board)
       if won == nil
         return nil
+      else
+        return board[won[0]]
       end
-      return board[won[0]]
+      # return board[won[0]]
     end
   # Play
   def play(board)
