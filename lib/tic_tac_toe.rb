@@ -31,7 +31,7 @@
             false
       elsif index < 0 || index > 9
            false
-      elsif board[index]
+      else
              true
        end
   end
