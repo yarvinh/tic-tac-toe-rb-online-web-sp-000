@@ -148,7 +148,7 @@
 
 
 if winner(board) == "X" || winner(board) == "O"
-  nil
+  
  if winner(board) == "O"
  puts "congratulates the winner O"
  else  winner(board) == "X"
