@@ -164,8 +164,6 @@ if winner(board) == "X" || winner(board) == "O"
  elsif draw?(board) == true
    puts "Cat's Game!"
 else
-
-
 turn(board)
 over?(board)
  draw?(board)
