@@ -216,7 +216,7 @@
       puts "Cat's Game!"
     end
   end
-if counter > 9
+if counter >= 9
       break
     end
 end
