@@ -187,9 +187,9 @@ turn(board)
 over?(board)
  draw?(board)
 
-# turn(board)
-# over?(board)
-#  draw?(board)
+turn(board)
+over?(board)
+ draw?(board)
 #
 # turn(board)
 # over?(board)
