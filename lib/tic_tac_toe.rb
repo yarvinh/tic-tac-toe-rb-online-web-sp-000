@@ -207,19 +207,7 @@
         draw?(board)
         winner(board)
       counter += 1
-    # if over?(board) == false
-      turn(board)
-      draw?(board)
-      winner(board)
-  #   elsif over?(board)
-  #   if winner(board) == "O"
-  #   puts "Congratulations O!"
-  #   elsif  winner(board) == "X"
-  #     puts "Congratulations X!"
-  #   elsif draw?(board) == true
-  #     puts "Cat's Game!"
-  #   end
-  # end
+
 if counter >= 9
       break
     end
