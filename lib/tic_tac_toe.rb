@@ -157,9 +157,10 @@ def play(board)
           elsif  winner(board) == "X"
                puts "Congratulations X!"
 
-    elsif draw?(board) == true
+          elsif draw?(board) == true
                 puts "Cat's Game!"
       end
+      en
       if over?(board)
         break
       end
