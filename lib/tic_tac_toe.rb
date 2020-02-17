@@ -118,20 +118,20 @@
     end
     # Over method
     def over?(board)
-#       if full?(board) == true
-#           true
-#       elsif full?(board) == true && won?(board).class == Array
-#           true
-#           # return full?(board)
-#       # elsif  full?(board) == true
-#       #       true
-#       elsif full?(board) == false && won?(board).class == Array
-#             true
-#       # else
-#       #       false
-#       end
-#     end
-#
+      if full?(board) == true
+          true
+      elsif full?(board) == true && won?(board).class == Array
+          true
+          # return full?(board)
+      # elsif  full?(board) == true
+      #       true
+      elsif full?(board) == false && won?(board).class == Array
+            true
+      # else
+      #       false
+      end
+    end
+
 #     # Winner method
 #     def winner(board)
 #       won = won?(board)
@@ -208,7 +208,7 @@
     over?(board)
     draw?(board)
 
-     if over?(board)
+    if over?(board)
       break
     end
 end
