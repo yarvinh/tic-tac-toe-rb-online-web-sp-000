@@ -154,48 +154,6 @@ def play(board)
 # elsif draw?(board) == true
 #   puts "Cat's Game!"
 # else
-if over?(board) == false
-turn(board)
-over?(board)
- draw?(board)
-# winner(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
-draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
-
-#
-turn(board)
-over?(board)
-draw?(board)
-
-turn(board)
-over?(board)
- draw?(board)
 
  elsif winner(board) == "O"
  puts "Congratulations O!"
@@ -205,5 +163,8 @@ over?(board)
  elsif draw?(board) == true
    puts "Cat's Game!"
  else
+   turn(board)
+   over?(board)
+    draw?(board)
 end
   end
