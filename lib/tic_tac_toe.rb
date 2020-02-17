@@ -29,7 +29,7 @@
       if position_taken?(board,index) == true
       # if board[index] == "X" || board[index] == "O"
             false
-      elsif index < 1 || index > 9
+      elsif index < 0 || index > 9
            false
       else
              true
