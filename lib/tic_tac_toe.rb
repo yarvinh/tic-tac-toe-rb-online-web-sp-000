@@ -207,6 +207,7 @@
     # if over?(board) == false
       turn(board)
       draw?(board)
+      winner(board)
   #   elsif over?(board)
   #   if winner(board) == "O"
   #   puts "Congratulations O!"
