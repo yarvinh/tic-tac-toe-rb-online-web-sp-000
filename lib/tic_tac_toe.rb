@@ -146,11 +146,49 @@
 # Play
 def play(board)
 
-      counter = 0
-      loop do
-        counter += 1
+
       if over?() == false
-          turn(board)
+        turn(board)
+        over?(board)
+         draw?(board)
+
+
+        turn(board)
+        over?(board)
+         draw?(board)
+
+        turn(board)
+        over?(board)
+         draw?(board)
+
+        turn(board)
+        over?(board)
+        draw?(board)
+
+        turn(board)
+        over?(board)
+         draw?(board)
+
+        turn(board)
+        over?(board)
+         draw?(board)
+
+        turn(board)
+        over?(board)
+         draw?(board)
+
+        turn(board)
+        over?(board)
+         draw?(board)
+
+        #
+        turn(board)
+        over?(board)
+        draw?(board)
+
+        turn(board)
+        over?(board)
+         draw?(board)
       elsif over?(board) == true
           if winner(board) == "O"
                puts "Congratulations O!"
@@ -161,10 +199,7 @@ def play(board)
                 puts "Cat's Game!"
       end
     end
-      if over?(board)
-        break
-      end
-      end
+
 
 # if winner(board) == "X" || winner(board) == "O"
 
